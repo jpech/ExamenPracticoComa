@@ -1,0 +1,230 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Julian Pech Pacheco\\Documents\\Visual Studio 2019\\Projects\\ExamenPracticoSrJulianPech\\ExamenPracticoSrJulianPech\\ExamenPracticoSrJulianPech.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Julian Pech Pacheco\\Documents\\Visual Studio 2019\\Projects\\ExamenPracticoSrJulianPech\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Julian Pech Pacheco\\Documents\\Visual Studio 2019\\Projects\\ExamenPracticoSrJulianPech\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\Julian Pech Pacheco\\Documents\\Visual Studio 2019\\Projects\\ExamenPracticoSrJulianPech\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Julian Pech Pacheco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Julian Pech Pacheco\\Documents\\Visual Studio 2019\\Projects\\ExamenPracticoSrJulianPech\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Julian Pech Pacheco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Julian Pech Pacheco\\Documents\\Visual Studio 2019\\Projects\\ExamenPracticoSrJulianPech\\ExamenPracticoSrJulianPech\\ExamenPracticoSrJulianPech.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Julian Pech Pacheco\\Documents\\Visual Studio 2019\\Projects\\ExamenPracticoSrJulianPech\\ExamenPracticoSrJulianPech\\ExamenPracticoSrJulianPech.csproj",
+        "projectName": "ExamenPracticoSrJulianPech",
+        "projectPath": "C:\\Users\\Julian Pech Pacheco\\Documents\\Visual Studio 2019\\Projects\\ExamenPracticoSrJulianPech\\ExamenPracticoSrJulianPech\\ExamenPracticoSrJulianPech.csproj",
+        "packagesPath": "C:\\Users\\Julian Pech Pacheco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Julian Pech Pacheco\\Documents\\Visual Studio 2019\\Projects\\ExamenPracticoSrJulianPech\\ExamenPracticoSrJulianPech\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Julian Pech Pacheco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Julian Pech Pacheco\\Documents\\Visual Studio 2019\\Projects\\ExamenPracticoSrJulianPech\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Julian Pech Pacheco\\Documents\\Visual Studio 2019\\Projects\\ExamenPracticoSrJulianPech\\Domain\\Domain.csproj"
+              },
+              "C:\\Users\\Julian Pech Pacheco\\Documents\\Visual Studio 2019\\Projects\\ExamenPracticoSrJulianPech\\Services\\Services.csproj": {
+                "projectPath": "C:\\Users\\Julian Pech Pacheco\\Documents\\Visual Studio 2019\\Projects\\ExamenPracticoSrJulianPech\\Services\\Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            },
+            "Swashbuckle.Core": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Julian Pech Pacheco\\Documents\\Visual Studio 2019\\Projects\\ExamenPracticoSrJulianPech\\Services\\Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Julian Pech Pacheco\\Documents\\Visual Studio 2019\\Projects\\ExamenPracticoSrJulianPech\\Services\\Services.csproj",
+        "projectName": "Services",
+        "projectPath": "C:\\Users\\Julian Pech Pacheco\\Documents\\Visual Studio 2019\\Projects\\ExamenPracticoSrJulianPech\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\Julian Pech Pacheco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Julian Pech Pacheco\\Documents\\Visual Studio 2019\\Projects\\ExamenPracticoSrJulianPech\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Julian Pech Pacheco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Julian Pech Pacheco\\Documents\\Visual Studio 2019\\Projects\\ExamenPracticoSrJulianPech\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Julian Pech Pacheco\\Documents\\Visual Studio 2019\\Projects\\ExamenPracticoSrJulianPech\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
